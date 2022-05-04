@@ -1,0 +1,6 @@
+console.log("noseX = " + noseX +", noseY = " + noseY);
+if((keyDown(control.up) ||keyDown(control.left)||keyDown(control.right) )&& gameConfig.status==="start") {
+    world_start.play();
+    initializeCharacterStatus(mario);
+    gameConfig.status= "play";
+  }
